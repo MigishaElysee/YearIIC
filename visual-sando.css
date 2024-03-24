@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+	box-sizing: border-box;
+}
+body {
+	background: black;
+	color: white;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.logo{
+	width: 140px;
+}
+nav ul li{
+	display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	position: relative;
+}
+nav ul li a::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background: brown;
+	position: absolute;
+	left: 0;
+	bottom:-6px;
+	transition: 0.5s;
+}
+nav ul li a:hover::after{ 
+    width: 100%;
+}
+#obed{
+    width: 350px;
+    height:400px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1{
+	flex-basis: 35%;
+}
+.col2{
+	width: 35%;
+	border-radius: 15px;
+	flex-basis: 60%
+}
+.header-text{
+	margin-top: 1%;
+	font-size:10px;
+}
+.header-text p{
+	color: rgb(50,10,80);
+	font-size: 20px;
+}
+.header-text h2{
+	font-size: 30px;
+	margin-top; 10px;
+}
+.header-text h2 span{
+    color: brown;  
+}
+#about{
+	padding: 80px 0;
+	color: grey;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.me{
+	font-size: 20px;
+	margin-top: 1%;
+	position: relative;
+}
+

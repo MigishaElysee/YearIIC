@@ -1,0 +1,24 @@
+
+.service {
+    color: white;
+    margin-left:50px;
+}
+.sub-service {
+    margin-left: 50px;
+    color: white;
+}
+ul{
+    list-style: none;
+    margin-left: 30px;
+}
+body{
+background-image:url(services.jpg);
+background-position: cover;
+}
+h1{
+    color: white;  
+    margin-left:50px;
+}
+h2{
+	text-align: left;
+}
